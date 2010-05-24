@@ -57,6 +57,7 @@ if __name__ == '__main__':
     # module.  If it is run outside of xbmc, sys must be imported
     try: sys
     except NameError: import sys
+    print sys.argv[1]
     
     #parse command line parameters into a dictionary
     params = parse_qs(sys.argv[2])

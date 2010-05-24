@@ -1,4 +1,4 @@
-b#!/usr/bin/env python
+#!/usr/bin/env python
 #xbmcemulator
 
 class xbmc(object):
